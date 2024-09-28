@@ -1,0 +1,48 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15rem 2rem;
+    vertical-align: middle;
+}
+
+.principal-imagem {
+    width: 75%;
+}
+
+.principal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .1rem;
+    margin: 2rem 0;
+}
+
+.principal-form-label {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.principal-form-input {
+    width: 25rem;
+    padding: .7rem 1.7rem; 
+    font-size: 1.4rem;
+    border: 1px solid #686868;
+    border-radius: .4rem;
+}
+
+#principal-form-botao {
+    margin: 1rem 0;
+    padding: .7rem 1.7rem;
+    border: 1px solid #686868;
+    border-radius: .2rem;
+    background-color: #EBEBEB;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.principal-ajuda {
+    color: #686868;
+    font-size: 1.2rem;
+}
